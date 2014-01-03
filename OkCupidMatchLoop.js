@@ -1,4 +1,3 @@
-
 var count           = 0,
     repeat          = 3,  // Number of times to run the script, ussually 18 profiles per run.
     matchTolerance  = 60; // Match percent tolerance 
@@ -52,7 +51,7 @@ function cardLoop() {
             console.log('Examined Card');
         }
 
-        setTimeout(function(){ init(); }, 2500);
+        init();
 
 
         // Reached the end of the cards, get more
