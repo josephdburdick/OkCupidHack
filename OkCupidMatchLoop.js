@@ -1,3 +1,8 @@
+
+// This file is outdated, see seekAndMessage.js
+
+
+
 var count           = 0,
     repeat          = 3,  // Number of times to run the script, ussually 18 profiles per run.
     matchTolerance  = 60; // Match percent tolerance 
