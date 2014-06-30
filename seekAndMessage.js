@@ -6,7 +6,7 @@
  * ahead of time by automatically messaging profiles with a high
  * enough match percent and following up on responders.
  *
- * @author  Miguel Perez  miguel-perez.com, @tayokoart
+ * @author  Miguel Ángel Pérez  miguel-perez.com, @tayokoart
  */
  
  
@@ -21,7 +21,7 @@ $cards.each(function(i) {
     var $matchCard      = jQuery(this),
         matchTolerance  = 70;
     
-    // Vote if you like her
+    // Vote if you like them
     function init() {
         var id              = $matchCard.find('.current-rating').attr('id'),
             personality     = id.split('-')[2],
