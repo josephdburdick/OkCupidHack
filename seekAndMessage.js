@@ -1,20 +1,19 @@
 /**
- * Loops through profile cards and messages people on OKCupid.
+ * This script generates warm leads on okCupid
  * 
- * Simple funnel logic. Instead of having to do the work of reaching
- * out to folks just to never get a response, this script will send
- * a message for you. Then you take your pick from those that had 
- * message you back. Warm leads instead of cold calling.
+ * They are going to spend a -fraction- of a second on your profile
+ * before figuring out if you're their type. Have them do it
+ * ahead of time by automatically messaging profiles with a high
+ * enough match percent and following up on responders.
  *
- * @author  Miguel Perez  <reachme@miguel-perez.com>, @tayokoart
+ * @author  Miguel Perez  miguel-perez.com, @tayokoart
  */
  
  
-// 1. Define match tolerance in line 8
-// 2. Set the message you'd like to send
-// 3. Get an authcode by starting a message draft and pulling it from the network tab a XHR call is made to the server save your draft
-// 4. Disable popup blocker
-// 5. Paste into console while on profile browser
+// 1. Set the message you'd like to send
+// 2. Get an authcode by starting a message draft and pulling it from the network tab
+//    when an XHR request is made to the server save your draft
+// 3. Disable popup the blocker and run this in console
 
 var $cards  = jQuery('#match_results .match_card_wrapper');
 // Loop through each card
