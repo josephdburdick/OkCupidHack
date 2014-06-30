@@ -13,7 +13,7 @@
 // 1. Set the message you'd like to send
 // 2. Get an authcode by starting a message draft and pulling it from the network tab
 //    when an XHR request is made to the server save your draft
-// 3. Disable popup the blocker and run this in console
+// 3. Disable the popup blocker, make sure you're not browsing invisibly, and run this in console
 
 var $cards  = jQuery('#match_results .match_card_wrapper');
 // Loop through each card
